@@ -1,11 +1,10 @@
 {
   "name": "@rviso/rust",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "在项目中构建rust环境",
   "main": "bin/index.js",
   "scripts": {
-    "postinstall": "zx ./bin/index.mjs",
-    "test": "zx ./bin/test.mjs"
+    "postinstall": "node bin/index.mjs"
   },
   "files": [
     "bin",
@@ -30,7 +29,6 @@
   "devDependencies": {
     "execa": "^8.0.0",
     "fs-extra": "^11.2.0",
-    "rimraf": "^5.0.7",
-    "zx": "^8.1.0"
+    "rimraf": "^5.0.7"
   }
 }
