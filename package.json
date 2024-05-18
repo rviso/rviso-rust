@@ -1,6 +1,6 @@
 {
   "name": "@rviso/rust",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "在项目中构建rust环境",
   "main": "bin/index.js",
   "scripts": {
